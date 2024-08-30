@@ -1,0 +1,147 @@
+/* color: rgb(205, 204, 249); */
+/* background-color: rgb(25, 25, 52); */
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  box-sizing: border-box;
+}
+
+body {
+  color: white;
+  font-family: 'Gill Sans MT', 'Trebuchet MS', Calibri, sans-serif;
+  background-color: rgb(23, 23, 89);
+}
+
+#hero {
+  position: sticky;
+  z-index: 100;
+  left: 0;
+  top: 0;
+  right: 0;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: rgba(23, 23, 89, 0.3);
+  backdrop-filter: blur(10px);
+}
+
+.wish {
+  font-size: 0.8rem;
+  font-size: 1.4rem;
+  margin-left: 4px;
+}
+
+.name {
+  margin-left: px;
+}
+
+.h-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-links div {
+  margin-inline: 24px;
+}
+
+main{
+  padding: 0 100px;
+}
+.details{
+  margin-top: 104px;
+  height: clamp(70vh,500px,500px);
+  border: 2px solid rgb(10, 10, 48);
+  background-color: black;
+  border-radius: 4px;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  box-shadow: 0 0 10px -5px black;
+}
+#details-main{
+  margin: 8px;
+}
+#name,#iam{
+  color: rgb(10, 94, 252);
+}
+
+#details-main{
+  padding: 50px 0 100px 50px;
+  font-size: 2rem;
+}
+#details-para{
+  padding: 3rem;
+  font-size: 1.2rem;
+  background-color: rgb(10, 10, 48);
+}
+#myworks{
+  text-align: center;
+  font-size: 4rem;
+  font-weight: 900;
+  background-image: linear-gradient(to left ,rgb(23, 23, 89),rgb(23, 23, 89), rgb(24, 24, 110),rgb(23, 23, 89),rgb(23, 23, 89));
+  color: rgb(193, 200, 255);
+}
+.clone-images a img{
+  width: 40vw;
+  box-shadow: 0 0 100px 10px rgb(8, 8, 54);
+}
+
+
+.clone-images{
+  position: relative;
+  padding: 5%;
+}
+.clones{
+  padding: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.logos > *>img{
+  width: 17vw;
+  /* padding: 10%; */
+}
+.logos{
+  padding: 5%;
+}
+.projects-container{
+  background-color: black;
+  margin-inline:-100px;
+  margin-block: 10% ;
+}
+
+#languages{
+  font-size: 3rem;
+  font-family: fantasy;
+  text-shadow: 12px 4px 10px black;
+  color: rgb(0, 66, 188);
+  margin-top:  30px;
+}
+
+@media screen and  (max-width : 399px){
+  .nav-links{
+    display: none;
+  }
+  main{
+    padding: 0 ;
+  }
+  #details{
+    margin-top: 0;
+    width: 100%;
+  }
+  #details-main{
+    padding: 40px 0 40px 18px;
+    font-size: 1rem;
+  }
+  #details-para{
+    padding: 10px;
+    font-size: 0.8rem;
+    background-color: rgb(10, 10, 48);
+  }
+}
+
